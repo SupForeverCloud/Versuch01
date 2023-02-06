@@ -136,12 +136,12 @@ textarea.form__input {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 75%;
-    background-image: url("../images/header/header-background-0.5x.jpg");
+    background-image: url("../header-background-0.5x.jpg");
 }
 
 @media (min-width: 62em) {
     .header {
-        background-image: url("../images/header/header-background.jpg");
+        background-image: url("../header-background.jpg");
     }
 }
 
@@ -322,7 +322,7 @@ textarea.form__input {
     background-color: rgb(225, 220, 206);
 
     /*
-    background-image: url("../images/adventures/background.jpg");
+    background-image: url("../background.jpg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -399,7 +399,7 @@ textarea.form__input {
 }
 
 .story {
-    background-image: url("../images/story/background-mobile.jpg");
+    background-image: url("../background-mobile.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -410,7 +410,7 @@ textarea.form__input {
     .story {
         background-image: 
             linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, transparent 10%, transparent 90%, rgba(0, 0, 0, 0.5) 100%),
-            url("../images/story/background-desktop.jpg");
+            url("../background-desktop.jpg");
 
         background-size: 100% 100%, 110% auto;
         background-position: center center, 100% 50%;
@@ -518,8 +518,8 @@ textarea.form__input {
 
     background-image: 
         linear-gradient(90deg, #014153, #014153),
-        url("../images/guide/pexels-kevin-menajang-982673.jpg"),    
-        url("../images/guide/pexels-aron-visuals-1694621.jpg");
+        url("../pexels-kevin-menajang-982673.jpg"),    
+        url("../pexels-aron-visuals-1694621.jpg");
     background-size:
         100% calc(100% - 10rem),
         100% calc(100% - 10rem),
