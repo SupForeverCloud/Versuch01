@@ -17,7 +17,8 @@ function openCustomPageDialog(primaryControl, firstSelectedItemId, selectedEntit
 	    value: 700,
 	    unit: "px"
 	},
-	title: "Edit Comments"
+	title: "Edit Comments",
+    	displayFullScreenButton: false // Set fullscreen button to false
     };
     Xrm.Navigation.navigateTo(pageInput, navigationOptions).then(
         function () {
