@@ -8,11 +8,11 @@ function openCustomPageDialog(primaryControl, firstSelectedItemId, selectedEntit
     target: 2,
     position: 1,
     height: {
-      value: 260,
+      value: 280,
       unit: "px"
     },
     width: {
-      value: 690,
+      value: 700,
       unit: "px"
     },
     title: "Edit Comments",
