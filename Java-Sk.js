@@ -8,7 +8,7 @@ function openCustomPageDialog(primaryControl, firstSelectedItemId, selectedEntit
     target: 2,
     position: 1,
     height: {
-      value: 310,
+      value: 300,
       unit: "px"
     },
     width: {
