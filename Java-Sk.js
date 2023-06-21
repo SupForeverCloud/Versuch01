@@ -1,4 +1,4 @@
-function openCustomPageDialog(primaryControl, firstSelectedItemId, selectedEntityTypeName, parameterValue) {
+function openCustomPageDialog(primaryControl, firstSelectedItemId, selectedEntityTypeName) {
   // Centered Dialog
   var pageInput = {
     pageType: "custom",
