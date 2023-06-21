@@ -17,7 +17,7 @@ function openCustomPageDialog(primaryControl, firstSelectedItemId, VarParameter)
       value: 700,
       unit: "px"
     },
-    title: "Anschlussobjekt suchen"
+    title: VarParameter
   };
   Xrm.Navigation.navigateTo(pageInput, navigationOptions).then(
     function () {
