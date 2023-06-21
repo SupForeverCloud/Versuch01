@@ -1,10 +1,10 @@
-function openCustomPageDialog(primaryControl, firstSelectedItemId, selectedEntityTypeName,orgName) {
+function openCustomPageDialog(primaryControl, firstSelectedItemId, selectedEntityTypeName,String) {
   // Centered Dialog
   var pageInput = {
     pageType: "custom",
     name: "cr6f5_popupaosuche_f87e7",
     entityName: selectedEntityTypeName, // "sample_review"
-    objekkt: orgName,
+    objekkt: String,
     recordId: firstSelectedItemId // "{087AA308-B321-E811-A845-000D3A33A3AC}" 
   };
   var navigationOptions = {
