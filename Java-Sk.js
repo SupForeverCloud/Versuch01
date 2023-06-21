@@ -2,7 +2,7 @@ function openCustomPageDialog(primaryControl, firstSelectedItemId, selectedEntit
   // Centered Dialog
   var pageInput = {
     pageType: "custom",
-    name: "cr6f5_popupaosuche_f87e7",
+    name: "cr6f5_popupaosuche_f87e7&parametername=parametervalue",
     entityName: selectedEntityTypeName, // "sample_review"
     recordId: firstSelectedItemId // "{087AA308-B321-E811-A845-000D3A33A3AC}" 
   };
@@ -17,8 +17,7 @@ function openCustomPageDialog(primaryControl, firstSelectedItemId, selectedEntit
       value: 700,
       unit: "px"
     },
-    title: "Anschlussobjekt suchen",
-    displayFullScreenButton: false // Set fullscreen button to false
+    title: "Anschlussobjekt suchen"
   };
   Xrm.Navigation.navigateTo(pageInput, navigationOptions).then(
     function () {
